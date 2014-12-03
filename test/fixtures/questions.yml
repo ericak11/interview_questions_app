@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  answer: MyString
+  round: MyString
+  date: 2014-12-03
+
+two:
+  content: MyString
+  answer: MyString
+  round: MyString
+  date: 2014-12-03
