@@ -1,5 +1,5 @@
 class Question < ActiveRecord::Base
-  has_one :company
-  has_one :user
+  belongs_to :company
+  belongs_to :user
   validates :content, :round, :date, presence: true
 end

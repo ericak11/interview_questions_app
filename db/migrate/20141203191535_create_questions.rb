@@ -5,6 +5,8 @@ class CreateQuestions < ActiveRecord::Migration
       t.string :answer
       t.string :round
       t.date :date
+      t.references :user
+      t.references :company
 
       t.timestamps
     end

@@ -14,6 +14,7 @@
       <tr>
         <td><%= company.name %></td>
         <td><%= company.location %></td>
+        <td><%= link_to 'Add Question', new_company_question_path(company) %></td>
         <td><%= link_to 'Show', company %></td>
         <td><%= link_to 'Edit', edit_company_path(company) %></td>
         <td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
